@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página inicial</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&family=Poppins:wght@200;300;400;500&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script>
+        document.querySelector("html").id = "js";
+    </script>
+
+</head>
+<body>
+
+    <div class="container">
+
+        <header>
+           
+            <nav class="nav-bar pad-12 bg-b">
+                <div class="menumobile">
+                   <img src="assets/img/menu.svg" alt="">
+                </div>
+                <div class="nav-brand w">
+                    <p> Plataforma EAD </p>
+                </div>
+                <div class="nav">
+                    <ul >
+                        <li><a class="f-l-b pad-8 w" href="index.html">Página inicial</a></li>
+                        <li><a class="f-l-b pad-8 w" href="meuscursos.html">Meus cursos</a></li>
+                        <li><a class="f-l-b pad-8 w" href="#">Meu perfil</a></li>
+                        <li><a class="f-l-b pad-8 w" href="#">Grade</a></li>
+                        <li><a class="f-l-b pad-8 w" href="#">Sair</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+        </header>
+
+        <main>
+            <section id="main" class="mar-top-12">
+                <section class="main pad-12">
+
+                    <div class="superior">
+                        <div class="card">
+                            <p class="f-xxl-b">2</p>
+                            <p>Cursos matriculados</p>
+                        </div>
+                        <div class="card">
+                            <p class="f-xxl-b">0</p>
+                            <p>Cursos concluídos</p>
+                        </div>
+                        <div class="card">
+                            <p class="f-xxl-b">14</p>
+                            <p>Aulas concluídas</p>
+                        </div>
+                    </div>
+                    <div class="inferior perfil">
+                        
+                        <div class="formulario pad-12">
+                            <h2 class="mar-bottom-16">Dados pessoais</h2>
+                            <form action="#" method="POST" enctype="multipart/form-data">
+                                <div class="left">
+                                    <div class="imagem">
+                                        <img src="assets/img/constituicao.webp" alt="">
+                                    </div>
+                                    <input class="mar-top-24 mar-bottom-24" type="file" name="imagem" >
+                                </div>
+                                <div class="right f-xm-b">
+                                    <label class="mar-bottom-12" for="nome">Nome:</label>
+                                    <input class="mar-bottom-12" id="nome" type="text" name="nome">
+                                    <label class="mar-bottom-12" for="sobrenome">Sobrenome:</label>
+                                    <input class="mar-bottom-12" id="sobrenome" type="text" name="sobrenome">
+                                    <label class="mar-bottom-12" for="nascimento">Data de nascimento:</label>
+                                    <input class="mar-bottom-12" id="nascimento" type="text" name="nascimento">
+                                    <label class="mar-bottom-12" for="cpf">CPF:</label>
+                                    <input class="mar-bottom-12" id="cpf" type="text" name="cpf">
+                                    <label class="mar-bottom-12" for="email">Email:</label>
+                                    <input class="mar-bottom-12" id="email" type="text" name="email">
+                                </div>
+                                <div class="row-complete mar-top-24">
+                                    <h2>Informações de contato</h2>
+                                    <div id="endereco" class="">
+                                        <div class="right f-xm-b">
+                                            <label class="mar-bottom-12" for="rua">Rua:</label>
+                                            <input class="mar-bottom-12" id="rua" type="text" name="rua">
+                                            <label class="mar-bottom-12" for="numero">Numero:</label>
+                                            <input class="mar-bottom-12" id="numero" type="text" name="numero">
+                                            <label class="mar-bottom-12" for="bairro">Bairro:</label>
+                                            <input class="mar-bottom-12" id="bairro" type="text" name="bairro">
+                                            <label class="mar-bottom-12" for="estado">Estado:</label>
+                                            <input class="mar-bottom-12" id="estado" type="text" name="estado">
+                                            <label class="mar-bottom-12" for="cidade">Cidade:</label>
+                                            <input class="mar-bottom-12" id="cidade" type="text" name="cidade">
+                                        </div>
+                                        <div class="right f-xm-b">
+                                            <label class="mar-bottom-12" for="telresidencial">Tel. Residencial:</label>
+                                            <input class="mar-bottom-12" id="telresidencial" type="text" name="telresidencial">
+                                            <label class="mar-bottom-12" for="telcomercial">Tel. Comercial:</label>
+                                            <input class="mar-bottom-12" id="telcomercial" type="text" name="telcomercial">
+                                            <label class="mar-bottom-12" for="celular">Celular:</label>
+                                            <input class="mar-bottom-12" id="celular" type="text" name="celular">
+                                        </div>
+                                    </div>
+                                    <input class="mar-8 btn bg-b w" type="submit" value="Salvar">
+                                </div>
+                                
+                            </form>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+            </section>
+        </main>
+
+    </div>
+    <script src="assets/js/menu.js"></script>
+</body>
+</html>

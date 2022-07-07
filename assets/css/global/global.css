@@ -1,0 +1,22 @@
+html, body, *{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+img{
+    width:100%;
+    max-width: 100%;
+}
+.container{
+    margin:0 auto;
+    max-width: 1440px;
+}
+

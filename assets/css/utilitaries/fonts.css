@@ -1,0 +1,52 @@
+.f-p{
+    font-size: 0.75rem; /* 12px */
+}
+.f-m{
+    font-size: 0.875rem; /* 14px */
+}
+.f-xm{
+    font-size:  1.125rem; /* 18px */
+}
+.f-l{
+    font-size: 1.375rem; /* 22px */
+}
+.f-xl{
+    font-size: 2rem; /* 32 px*/
+}
+.f-xxl{
+    font-size: 3rem; /* 48px */
+}
+
+/*  FIM */
+/* INÍCIO BOLDS */
+.f-p-b{
+    font-size: 0.75rem; /* 12px */
+    font-weight: bold;
+}
+.f-m-b{
+    font-size: 0.875rem; /* 14px */
+    font-weight: bold;
+}
+.f-xm-b{
+    font-size:  1.125rem; /* 18px */
+    font-weight: bold;
+}
+.f-l-b{
+    font-size: 1.375rem; /* 22px */
+    font-weight: bold;
+}
+.f-xl-b{
+    font-size: 2rem; /* 32 px*/
+    font-weight: bold;
+}
+.f-xxl-b{
+    font-size: 3rem; /* 48px */
+    font-weight: bold;
+}
+
+.roboto{
+    font-family: 'Roboto', sans-serif;
+}
+.poppins{
+    font-family: 'Poppins', sans-serif;
+}

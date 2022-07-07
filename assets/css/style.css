@@ -1,0 +1,15 @@
+/* GLOBAL */
+@import "global/global.css";
+
+/* UTILITÁRIOS */
+@import "utilitaries/background.css";
+@import "utilitaries/fonts.css";
+@import "utilitaries/colors.css";
+@import "utilitaries/spacing.css";
+@import "utilitaries/buttons.css";
+
+/*  FORMULÁRIOS */
+@import "index/index.css";
+@import "tabela/table.css";
+@import "formularios/cursos.css";
+@import "formularios/perfil.css";
